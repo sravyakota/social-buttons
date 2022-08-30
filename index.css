@@ -1,0 +1,64 @@
+/* Write your code here. */
+.bgContainer {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png");
+  background-size: cover;
+  height: 500vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  font-size: 18px;
+  font-family: "roboto";
+  padding: 5px;
+  height: 42px;
+  border-radius: 5px;
+}
+.heading {
+  font-family: "Bree Serif";
+  color: white;
+  font-size: 42px;
+  font-weight: bold;
+}
+.button1 {
+  color: #ffffff;
+  background-color: #eab308;
+}
+.button2 {
+  color: #323f4b;
+  background-color: #ffffff;
+}
+.button3 {
+  color: #ffffff;
+  background-color: #1d4ed8;
+}
+@media screen and (max-width: 767px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .buttonsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .buttonsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
